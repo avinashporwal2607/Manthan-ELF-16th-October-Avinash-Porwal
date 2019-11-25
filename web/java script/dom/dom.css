@@ -1,0 +1,16 @@
+.xyz
+{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: chartreuse;
+}
+
+.abc
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border:darkred;
+    font-variant-caps: all-petite-caps;
+    background-position-x: 0ch;
+
+}
