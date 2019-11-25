@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- type of file is html -->
+<html>
+<head>
+    <!-- body of head -->
+<title>My Assignment calculator</title>
+<!-- title for  read reference -->
+<style>
+    /* style is css property  */
+table{
+border:2px solid black; 
+width:30%;
+background-color:rgb(204, 24, 144);
+}
+/* table making with 30% of width attribute */
+td{
+padding:15px;
+height:100%;
+color:white;
+}
+/* table data with white color and padding 15px  */
+input{
+width:100%;
+height:200%;
+background-color:white;
+}
+/* taking the input in calculator */
+button{
+width:100%;
+height:200%;
+}
+/* creating the buttons */
+button:hover{
+color: #8AC007;
+font-weight:bold;
+}
+/* hover on button with green color */
+</style>
+</head>
+<!-- head body ended -->
+<body bgcolor="tomato">
+<!-- html body start -->
+	<script>//for writing js code in html file we use <script> tag
+        
+	function number(value){
+		document.form1.result.value +=value;
+	}//make function with one argument and named it number
+	function cle(value){
+		document.form1.result.value =value;
+	}
+	function evalua(){
+		//var evalu = eval(document.form1.result.value);
+		document.form1.result.value = eval(document.form1.result.value);
+	}//make function eval to get result of value
+    </script>
+    <!-- script body ended -->
+	<form name="form1">
+	<table align="center">
+        <!-- table tag started  -->
+	<tr>
+        <!-- providing the data into table row -->
+        <td colspan="4">My Assignment CALCULATOR</td>
+    </tr>
+		<tr><td colspan="4">
+		<input type = "text" name="result" placeholder="0" disabled style="text-align:right"></input>
+		</td></tr>
+		<tr>
+		<td><button type = "button" onclick="number(value)" value="1">1</button></td>
+		<td><button type = "button" onclick="number(value)" value="2">2</button></td>
+		<td><button type = "button" onclick="number(value)" value="3">3</button></td>
+        <td><button type = "button" onclick="number(value)" value="+">+</button></td>
+        <!-- we created the button and make attribute onclick on number function -->
+		</tr>
+		<tr>
+		<td><button type = "button" onclick="number(value)" value="4">4</button></td>
+		<td><button type = "button" onclick="number(value)" value="5">5</button></td>
+		<td><button type = "button" onclick="number(value)" value="6">6</button></td>
+		<td><button type = "button" onclick="number(value)" value="-">-</button></td>
+		</tr>
+		<tr>
+		<td><button type = "button" onclick="number(value)" value="7">7</button></td>
+		<td><button type = "button" onclick="number(value)" value="8">8</button></td>
+		<td><button type = "button" onclick="number(value)" value="9">9</button></td>
+		<td><button type = "button" onclick="number(value)" value="/">/</button></td>
+		</tr>
+		<tr>
+		<td><button type = "button" onclick="number(value)" value="."><strong>.</strong></button></td>
+		<td><button type = "button" onclick="number(value)" value="0">0</button></td>
+		<td><button type = "button" onclick="number(value)" value="*">*</button></td>		
+		<td><button type = "button" onclick="number(value)" value="%">%</button></td>
+		</tr>
+		<tr>
+		<td colspan="2">
+		<button type = "button" onclick="cle(value)" value="">C</button></td>
+		<td colspan="2">
+		<button type = "button" onclick="evalua()">=</button>
+		</td>
+		</tr>
+	</table>
+	</form>
+	
+	
+</body>
+</html>
