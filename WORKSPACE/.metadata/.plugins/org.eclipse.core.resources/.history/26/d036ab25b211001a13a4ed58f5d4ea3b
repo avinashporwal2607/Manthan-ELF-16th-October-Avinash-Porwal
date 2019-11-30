@@ -1,0 +1,96 @@
+import java.util.Scanner;
+import java.util.logging.Logger;
+
+public class BossMusicPlayer {
+	
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		Logger log=Logger.getLogger("mylogger");
+		log.info("Hello User, Welcome in Music World\n");
+		
+		log.info("Press 1 to 'Play a Song'");
+		log.info("Press 2 to 'Search a Song'");
+		log.info("Press 3 to 'Show all Songs'");
+		log.info("Press 4 to 'Operate on Songs Database\n'");
+
+		log.info("Please Enter Your Choice- ");
+		int choice=sc.nextInt();
+		sc.nextLine();
+		
+	
+		UserFunctions uf=new UserFunctions();
+		OpeationOnDataBase opdb=new OpeationOnDataBase();
+
+		switch (choice) {
+		case 1:
+			log.info("Press A to 'Play all Songs'");
+			log.info("Press B to 'Play Songs Randomly'");
+			log.info("Press C to 'Play a Particular Song'");
+			log.info("Please Enter Your Choice- ");
+			char input=sc.next().charAt(0);
+			
+			switch (input) {
+			case 'A':
+				log.info("Playing all songs");
+				uf.playAllSong();
+				break;
+			case 'B':
+				log.info("Playing songs randomly");
+				uf.playAllSongRandom();
+				break;
+			case 'C':
+				log.info("Please Enter the Song_ID of the Song-");
+				int Song_ID=sc.nextInt();
+				String Song_Title=uf.playSong(Song_ID);
+				log.info("Now Playing Song is "+Song_Title);
+
+				break;
+			default:
+				System.err.println("Oops! Sorry,Wrong Choice");
+				break;
+			}
+			break;
+		case 2:
+			log.info("Search a Song");
+			log.info("Please Enter Song_Title : ");
+			String Song_Title=sc.nextLine();
+			uf.searchSong(Song_Title);
+			break;
+		case 3:
+			uf.showAllSongs();
+			break;
+		case 4: 
+			log.info("Operations on Songs Database");
+			log.info("Press A to 'Add Song'");
+			log.info("Press B to 'Edit an existing Song'");
+			log.info("Press C to 'Delete an existing Song'");
+			log.info("Please Enter Your Choice : ");
+			char input1=sc.next().charAt(0);
+
+			switch (input1) {
+			case 'A':
+				opdb.addSong();
+				break;
+			case 'B':
+				opdb.updateSong();
+				break;
+			case 'C':
+				opdb.deleteSong();
+				break;
+
+			default:
+				log.info("Oops! Sorry ,Wrong Choice!!");
+				break;
+			}
+
+			break;
+		default:
+			log.info("Oops ! Sorry, Wrong Choice!!");
+			break;
+		}
+
+	}// End of mainMethod
+}// End of class BossMusicPlayer
+

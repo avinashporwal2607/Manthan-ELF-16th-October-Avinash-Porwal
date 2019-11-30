@@ -1,0 +1,18 @@
+package com.testyantra.lamda;
+
+public class TestBmi {
+	public static void main(String[] args) {
+		Bmi b=(weight,height)->(weight)/(height)*(height);
+				double d=b.bmi(57, 5.7);
+				System.out.println(d);
+						if(d>50)
+						{
+							System.out.println("normal bmi");
+						}
+						else
+						{
+							System.out.println("not normal bmi");
+						}
+	}
+
+}

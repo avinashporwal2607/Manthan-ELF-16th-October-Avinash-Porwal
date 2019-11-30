@@ -1,0 +1,13 @@
+package com.testyantra.lamda;
+
+import java.util.ArrayList;
+
+public class quest28 {
+	public static void main(String[] args) {
+		ArrayList<String> al=ArrayList<String>();
+		
+		
+		
+	}
+
+}

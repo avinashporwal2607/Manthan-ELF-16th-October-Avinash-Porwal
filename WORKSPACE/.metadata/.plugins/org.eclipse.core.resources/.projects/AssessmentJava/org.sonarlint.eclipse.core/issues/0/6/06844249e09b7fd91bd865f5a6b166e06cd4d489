@@ -1,0 +1,48 @@
+
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯û®÷úÿÿÿÿHŞ/RMINORZ
+CODE_SMELL
+squid:S00100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬’¶şÿÿÿÿHß/RMINORZ
+CODE_SMELL
+|squid:S00100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ïúŒHà/RMINORZ
+CODE_SMELL
+‰squid:S00116	"VRename this field "Description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¼Â­ùÿÿÿÿHá/RMINORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸€îşÿÿÿÿHâ/RMINORZ
+CODE_SMELL
+ƒsquid:S00116"URename this field "Album_Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ„•ÔHã/RMINORZ
+CODE_SMELL
+„squid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬’¶şÿÿÿÿHä/RMINORZ
+CODE_SMELL
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öä€úÿÿÿÿHå/RMINORZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú±ÓHæ/RMINORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öä€úÿÿÿÿHç/RMINORZ
+CODE_SMELL
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¶À­ÿÿÿÿÿHè/RMINORZ
+CODE_SMELL
+|squid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßØ´”Hé/RMINORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¶À­ÿÿÿÿÿHê/RMINORZ
+CODE_SMELL
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸€îşÿÿÿÿHë/RMINORZ
+CODE_SMELL
+squid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßØ´”Hì/RMINORZ
+CODE_SMELL
+ˆsquid:S00116"URename this field "Song_Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Åñ×¶ûÿÿÿÿHí/RMINORZ
+CODE_SMELL
+{squid:S00100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÅæ&Hî/RMINORZ
+CODE_SMELL
+‹squid:S00116"XRename this field "Song_Location" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·«å¹üÿÿÿÿHï/RMINORZ
+CODE_SMELL
+„squid:S00116"VRename this field "Artist_Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÊößHğ/RMINORZ
+CODE_SMELL
+„squid:S00117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿõøşÿÿÿÿHñ/RMINORZ
+CODE_SMELL
+…squid:S00116"RRename this field "Song_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…®ŒéıÿÿÿÿHò/RMINORZ
+CODE_SMELL
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çéŸÿÿÿÿÿHó/RMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.Hô/RMINORZ
+CODE_SMELL

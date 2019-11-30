@@ -1,0 +1,5 @@
+import com.manthan.student.bean.StudentInfoBean;
+
+public interface Dao {
+	public StudentInfoBean login(String User_Name,String password);
+}

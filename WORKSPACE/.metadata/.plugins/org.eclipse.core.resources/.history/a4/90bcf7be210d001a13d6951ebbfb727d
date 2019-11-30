@@ -1,0 +1,8 @@
+package com.manthan.empwebapp.servlets;
+
+import javax.servlet.http.HttpServlet;
+
+public class LoginStudent extends HttpServlet {
+	
+
+}

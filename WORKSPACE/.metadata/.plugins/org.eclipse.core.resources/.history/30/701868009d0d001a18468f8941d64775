@@ -1,0 +1,14 @@
+package com.manthan.Login;
+
+public class StudentDAOImplementsManager {
+	private StudentDAOImplementsManager()
+	{
+		
+	}
+	public static StudentDAO getInstance()
+	{
+		return (StudentDAO) new StudentDAOImplementsManager();
+		
+	}
+
+}

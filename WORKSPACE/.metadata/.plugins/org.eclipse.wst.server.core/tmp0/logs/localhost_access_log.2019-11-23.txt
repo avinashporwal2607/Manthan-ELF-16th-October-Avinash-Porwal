@@ -1,0 +1,17 @@
+127.0.0.1 - - [23/Nov/2019:09:22:05 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:22:36 +0530] "GET /servletAssignment/LoginFile HTTP/1.1" 404 1105
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:22:36 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:30:09 +0530] "GET /servletsAssignment/LoginFile HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:31:48 +0530] "GET /servletsAssignment/LoginFile HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:31:49 +0530] "GET /servletsAssignment/LoginFile HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:32:22 +0530] "GET /servletsAssignment/LoginFile HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:32:24 +0530] "GET /servletsAssignment/LoginFile HTTP/1.1" 404 1106
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:34:29 +0530] "GET /servletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:34:35 +0530] "GET /servletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:34:37 +0530] "GET /servletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+127.0.0.1 - - [23/Nov/2019:09:35:01 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:35:22 +0530] "GET /ServletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:36:45 +0530] "GET /ServletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:38:07 +0530] "GET /ServletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:38:07 +0530] "GET /ServletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110
+0:0:0:0:0:0:0:1 - - [23/Nov/2019:09:38:07 +0530] "GET /ServletsAssignment/LoginFile.jsp HTTP/1.1" 404 1110

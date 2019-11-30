@@ -1,0 +1,43 @@
+//
+package com.tyss.empwebapp.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Date;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;//JAVAX HERE 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyFirstServlet extends HttpServlet{
+@Override
+//protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//	Date date=new Date();
+//	
+//	resp.setHeader("refresh", "1");
+//	PrintWriter out=resp.getWriter();
+//	ServletConfig config=getServletConfig();
+//	String msg=config.getInitParameter("message");
+//	
+//	ServletContext context=getServletContext();
+//	String code=context.getInitParameter("country code");
+//	out.print("<html>");
+//	out.println("<head>");
+//	//out.println("<meta http-equiv='refresh' content='3'>");
+//	out.println("</head>");
+//	
+//	out.print("<body>");
+//	out.print("<h1>current system date & time <br>"+date +"</h1>");
+//	out.println(msg);
+//	
+//	out.println("country code"+code);
+//	
+//	out.print("</body>");
+//	out.print("</html>");
+//	
+//}
+
+}//end of class

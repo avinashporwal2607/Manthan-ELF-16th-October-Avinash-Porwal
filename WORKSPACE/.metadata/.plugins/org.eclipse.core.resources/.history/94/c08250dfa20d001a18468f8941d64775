@@ -1,0 +1,6 @@
+
+public interface StudentDao {
+	
+	public boolean addStudent(StudentInfoBean studentInfoBean);
+	public StudentInfoBean auth(String username,String password);
+}

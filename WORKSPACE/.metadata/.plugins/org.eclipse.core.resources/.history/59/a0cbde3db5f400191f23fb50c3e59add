@@ -1,0 +1,10 @@
+package com.testyantra.object.test;
+
+public class Student {
+	String name;
+	int id;
+	@Override
+	public int hashCode() {
+		return 500;
+	}
+}

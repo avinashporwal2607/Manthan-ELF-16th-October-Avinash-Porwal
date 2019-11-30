@@ -1,0 +1,22 @@
+
+ksquid:S26292"7Use the built-in formatting to construct this argument.(üì¾§8Şœƒë-HĞ3RMAJORZ
+CODE_SMELL
+Xsquid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÄ3RMINORZVULNERABILITY
+ˆsquid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(í¸×íHÆ3RBLOCKERZVULNERABILITY
+ksquid:S2629-"7Use the built-in formatting to construct this argument.(â¿¬è8Şœƒë-HÍ3RMAJORZ
+CODE_SMELL
+Xsquid:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÉ3RMINORZVULNERABILITY
+_squid:S4925"-Remove this "Class.forName()", it is useless.(½“ĞÚşÿÿÿÿHÃ3RMAJORZ
+CODE_SMELL
+ksquid:S26290"7Use the built-in formatting to construct this argument.(Ÿ£æõ8Şœƒë-HÏ3RMAJORZ
+CODE_SMELL
+ksquid:S26293"7Use the built-in formatting to construct this argument.(™îš8Şœƒë-HÑ3RMAJORZ
+CODE_SMELL
+Xsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÅ3RMINORZVULNERABILITY
+ksquid:S2629,"7Use the built-in formatting to construct this argument.(°±¬¿8‡¿‚ë-HË3RMAJORZ
+CODE_SMELL
+ksquid:S2629/"7Use the built-in formatting to construct this argument.(ú¶‡÷8Şœƒë-HÎ3RMAJORZ
+CODE_SMELL
+Xsquid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÇ3RMINORZVULNERABILITY
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç˜»ÎHÈ3RMINORZ
+CODE_SMELL

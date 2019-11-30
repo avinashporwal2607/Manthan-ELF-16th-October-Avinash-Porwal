@@ -1,0 +1,56 @@
+
+Ysquid:S1148³"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¨-RMINORZVULNERABILITY
+Xsquid:S1148a"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‘-RMINORZVULNERABILITY
+Xsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH-RMINORZVULNERABILITY
+Ysquid:S1148 "#Use a logger to log this exception.(¢ÑØùÿÿÿÿHœ-RMINORZVULNERABILITY
+_squid:S4925&"-Remove this "Class.forName()", it is useless.(Ë˜®şÿÿÿÿHŒ-RMAJORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÚ•ÛH-RMINORZ
+CODE_SMELL
+Xsquid:S1148M"#Use a logger to log this exception.(¢ÑØùÿÿÿÿHŠ-RMINORZVULNERABILITY
+‹squid:S1192&"VDefine a constant instead of duplicating this literal "com.mysql.jdbc.Driver" 3 times.(Ë˜®şÿÿÿÿH¤-RCRITICALZ
+CODE_SMELL
+ysquid:CommentedOutCodeLineÎ"<This block of commented-out lines of code should be removed.(‚ĞÖƒH©-RMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àİ” üÿÿÿÿH-RMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ĞäH¯-RMINORZ
+CODE_SMELL
+Ysquid:S1148î"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH°-RMINORZVULNERABILITY
+Gsquid:S1220""Move this file to a named package.H‰-RMINORZ
+CODE_SMELL
+squid:S00117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÚ•ÛH¥-RMINORZ
+CODE_SMELL
+€squid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÚ•ÛH¦-RMINORZ
+CODE_SMELL
+Ysquid:S1148¬"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¡-RMINORZVULNERABILITY
+ysquid:CommentedOutCodeLine¼"<This block of commented-out lines of code should be removed.(¾¡Å×H -RMAJORZ
+CODE_SMELL
+Rsquid:S20682" Remove this hard-coded password.(Èîñ£H§-RBLOCKERZVULNERABILITY
+Ysquid:S1148ş"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHµ-RMINORZVULNERABILITY
+Xsquid:S2068Õ" Remove this hard-coded password.(ÄÃ½êùÿÿÿÿH­-RBLOCKERZVULNERABILITY
+ysquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚ĞÖƒH¢-RMAJORZ
+CODE_SMELL
+`squid:S4925È"-Remove this "Class.forName()", it is useless.(ƒŸ”şÿÿÿÿH³-RMAJORZ
+CODE_SMELL
+Xsquid:S2068ˆ" Remove this hard-coded password.( ã¯šùÿÿÿÿHª-RBLOCKERZVULNERABILITY
+xsquid:CommentedOutCodeLinej"<This block of commented-out lines of code should be removed.(¾¡Å×H™-RMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œç‹ÎÿÿÿÿÿH²-RMINORZ
+CODE_SMELL
+Ysquid:S1148÷"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH´-RMINORZVULNERABILITY
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÆ­äüÿÿÿÿH•-RMINORZ
+CODE_SMELL
+…squid:S1192"IDefine a constant instead of duplicating this literal "mylOGGER" 3 times.(Àò©ÿÿÿÿÿ8À›×‡ë-Hº-RCRITICALZ
+CODE_SMELL
+_squid:S4925{"-Remove this "Class.forName()", it is useless.(ƒŸ”şÿÿÿÿH-RMAJORZ
+CODE_SMELL
+Ysquid:S1148£"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH-RMINORZVULNERABILITY
+xsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(‚ĞÖƒH—-RMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÉıÿÿÿÿHˆ-RMINORZ
+CODE_SMELL
+Xsquid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‹-RMINORZVULNERABILITY
+„squid:S00117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø“„šşÿÿÿÿH‡-RMINORZ
+CODE_SMELL
+Ysquid:S1148ê"#Use a logger to log this exception.(¢ÑØùÿÿÿÿH¬-RMINORZVULNERABILITY

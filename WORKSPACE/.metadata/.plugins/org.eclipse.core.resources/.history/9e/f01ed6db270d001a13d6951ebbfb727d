@@ -1,0 +1,13 @@
+
+public class StudentDAOImplementsManager {
+	private StudentDAOImplementsManager()
+	{
+		
+	}
+	public static <StudentDAO> StudentDAO getInstance()
+	{
+		return (StudentDAO) new StudentDAOImplementsManager();
+		
+	}
+
+}

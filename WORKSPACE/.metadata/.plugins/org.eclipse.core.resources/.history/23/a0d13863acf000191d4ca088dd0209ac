@@ -1,0 +1,7 @@
+
+public class Child {
+void bike()
+{
+	System.out.println("child bike");
+}
+}

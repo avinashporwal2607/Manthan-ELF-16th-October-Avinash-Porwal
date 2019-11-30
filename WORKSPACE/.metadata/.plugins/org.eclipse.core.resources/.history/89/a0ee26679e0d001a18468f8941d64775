@@ -1,0 +1,46 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.manthan.student.bean.StudentInfoBean;
+@WebServlet("/login")
+public class Login extends HttpServlet{
+	private StudentDao dao=StudentDAOImplementsManager.getInstance();
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String user = (req.getParameter("User_Name"));
+		String paaswordVal = (req.getParameter("password"));
+		StudentInfoBean StudentInfoBean = ((StudentDAO) dao).login(user, paaswordVal);
+		PrintWriter out = resp.getWriter();
+		out.println("<html>");
+		out.println("<body>");
+
+		if (StudentInfoBean != null)
+
+		{
+			HttpSession session = req.getSession();
+			session.setAttribute("StudentInfoBeanInfoBean",StudentInfoBean);
+			out.println("<h2>weclome" + StudentInfoBean.getUser_Name() + "</h2>");
+
+			out.println("<a href='./logout'>logout</a><br>");
+
+		} else {
+			out.println("invalid credentials<br>");
+			req.getRequestDispatcher("./loginForm.html").include(req, resp);
+		}
+		out.println("</body>");
+		out.println("</html>");
+
+	}
+
+
+
+}

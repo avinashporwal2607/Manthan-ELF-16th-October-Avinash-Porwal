@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>empwebapp</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>country code</param-name>
+		<param-value>91</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>myFirstServlet</servlet-name>
+		<servlet-class>com.tyss.empwebapp.servlets.MyFirstServlet</servlet-class>
+
+		<init-param>
+			<param-name>message</param-name>
+			<param-value>this is servlet config param</param-value>
+			
+		</init-param>
+	
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>myFirstServlet</servlet-name>
+		<url-pattern>/myFirstServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getEmployeedetails</servlet-name>
+		<servlet-class>com.tyss.empwebapp.servlets.GetEmployeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getEmployeedetails</servlet-name>
+		<url-pattern>/getEmployee</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getEmployeeservlet2</servlet-name>
+		<servlet-class>com.tyss.empwebapp.servlets.GetEmployeeServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getEmployeeservlet2</servlet-name>
+		<url-pattern>/getemp</url-pattern>
+
+
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>myFirstjsp.jsp</servlet-name>
+	<jsp-file>/myFirstjsp.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>myFirstjsp.jsp</servlet-name>
+	<url-pattern>/firstjsp</url-pattern>
+	
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>secondjsp</servlet-name>
+	<jsp-file>/WEB-INF/jsp/MySecondjsp.jsp</jsp-file>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>secondjsp</servlet-name>
+		<url-pattern>/secondjsp</url-pattern>
+		
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>loginForm</servlet-name>
+		<jsp-file>/views/LoginForm.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>loginForm</servlet-name>
+		<url-pattern>/loginform</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>homepage</servlet-name>
+		<jsp-file>/views/HomePage.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>homepage</servlet-name>
+		<url-pattern>/home</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+		<servlet-name>searchEmployee</servlet-name>
+		<jsp-file>/views/SearchEmployee.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>searchEmployee</servlet-name>
+		<url-pattern>/searchEmployee</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>deleteEmpForm</servlet-name>
+		<jsp-file>/views/DeleteEmployee.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>deleteEmpForm</servlet-name>
+		<url-pattern>/deleteEmp</url-pattern>
+		</servlet-mapping>
+
+
+
+</web-app>

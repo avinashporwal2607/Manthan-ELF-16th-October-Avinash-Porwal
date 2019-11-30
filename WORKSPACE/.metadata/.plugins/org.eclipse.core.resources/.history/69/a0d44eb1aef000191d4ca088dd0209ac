@@ -1,0 +1,9 @@
+
+public class Testa {
+public static void main(String[] args) {
+	pen p=new Member();
+	p.cost=20;
+	p.write();
+	//p.color();
+}
+}

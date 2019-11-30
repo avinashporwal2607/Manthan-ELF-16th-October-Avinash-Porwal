@@ -1,0 +1,5 @@
+package com.manthan.student.bean;
+
+public class StudentInfoBean {
+
+}

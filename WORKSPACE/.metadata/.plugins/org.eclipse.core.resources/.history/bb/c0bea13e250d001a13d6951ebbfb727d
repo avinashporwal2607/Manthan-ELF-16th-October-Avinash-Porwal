@@ -1,0 +1,13 @@
+
+public class DaoImplementsManager  {
+	private DaoImplementsManager()
+	{
+		
+	}
+	public static Dao getInstance()
+	{
+		return (Dao) new DaoImplementsManager();
+		
+	}
+
+}

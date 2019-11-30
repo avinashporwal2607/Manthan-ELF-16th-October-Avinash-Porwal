@@ -1,0 +1,148 @@
+
+Xsquid:S1481µ"+Remove this unused "random" local variable.(¼ÝÅfHõ/RMINORZ
+CODE_SMELL
+Xsquid:S1481·"*Remove this unused "Count" local variable.(Þ“šÒHö/RMINORZ
+CODE_SMELL
+Ssquid:S2068¿" Remove this hard-coded password.(è„ ÎH÷/RBLOCKERZVULNERABILITY
+Xsquid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHø/RMINORZVULNERABILITY
+€squid:S00117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úïØ—Hù/RMINORZ
+CODE_SMELL
+e
+squid:S106."9Replace this use of System.out or System.err by a logger.(÷õ¼¼Hú/RMAJORZ
+CODE_SMELL
+…squid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢×¥ØüÿÿÿÿHû/RMINORZ
+CODE_SMELL
+e
+squid:S106|"9Replace this use of System.out or System.err by a logger.(¯û…“Hü/RMAJORZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(îªüìûÿÿÿÿHý/RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(‚ÐÖƒHþ/RMAJORZ
+CODE_SMELL
+k
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(›¢ò‹ýÿÿÿÿHÿ/RMAJORZ
+CODE_SMELL
+‹squid:S1192"VDefine a constant instead of duplicating this literal "com.mysql.jdbc.Driver" 5 times.(Ë˜®þÿÿÿÿH€0RCRITICALZ
+CODE_SMELL
+psquid:S2583î"DChange this condition so that it does not always evaluate to "false"(¼«€ºÿÿÿÿÿH0RMAJORZBUG
+Ysquid:S1148Ö"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH‚0RMINORZVULNERABILITY
+Ysquid:S1148Î"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHƒ0RMINORZVULNERABILITY
+{squid:S1192-"KDefine a constant instead of duplicating this literal "Song_Title" 5 times.(û³¶³H„0RCRITICALZ
+CODE_SMELL
+j
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH…0RMAJORZ
+CODE_SMELL
+Xsquid:S11488"#Use a logger to log this exception.(¢ÑØùÿÿÿÿH†0RMINORZVULNERABILITY
+ksquid:S2134	"@Don't extend "Thread", since the "run" method is not overridden.(‹öúîùÿÿÿÿH‡0RMAJORZBUG
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(û³¶³Hˆ0RMAJORZ
+CODE_SMELL
+~squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Þ%H‰0RMINORZ
+CODE_SMELL
+e
+squid:S106z"9Replace this use of System.out or System.err by a logger.( úùHŠ0RMAJORZ
+CODE_SMELL
+Ysquid:S1148ã"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH‹0RMINORZVULNERABILITY
+Ysquid:S1148‘"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHŒ0RMINORZVULNERABILITY
+`squid:S4925÷"-Remove this "Class.forName()", it is useless.(Ë˜®þÿÿÿÿH0RMAJORZ
+CODE_SMELL
+Gsquid:S2119µ"Save and re-use this "Random".(¼ÝÅfHŽ0RCRITICALZBUG
+Ysquid:S1148™"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH0RMINORZVULNERABILITY
+j
+squid:S106x"9Replace this use of System.out or System.err by a logger.(÷ã°äÿÿÿÿÿH0RMAJORZ
+CODE_SMELL
+`squid:S4925»"-Remove this "Class.forName()", it is useless.(Ë˜®þÿÿÿÿH‘0RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H’0RMINORZ
+CODE_SMELL
+j
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ýµñ®þÿÿÿÿH“0RMAJORZ
+CODE_SMELL
+Ysquid:S1148„"#Use a logger to log this exception.(¢ÑØùÿÿÿÿH”0RMINORZVULNERABILITY
+Xsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH•0RMINORZVULNERABILITY
+Xsquid:S1148J"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH–0RMINORZVULNERABILITY
+Ysquid:S1148‡"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH—0RMINORZVULNERABILITY
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚ÐÖƒH˜0RMAJORZ
+CODE_SMELL
+Ysquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH™0RMINORZVULNERABILITY
+Ysquid:S1148€"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHš0RMINORZVULNERABILITY
+_squid:S4925_"-Remove this "Class.forName()", it is useless.(Ë˜®þÿÿÿÿH›0RMAJORZ
+CODE_SMELL
+[squid:S1481¬"(Remove this unused "mib" local variable.(Ïûç»ýÿÿÿÿHœ0RMINORZ
+CODE_SMELL
+Ysquid:S1148§"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH0RMINORZVULNERABILITY
+k
+squid:S106Ô"9Replace this use of System.out or System.err by a logger.(¼äÞ…üÿÿÿÿHž0RMAJORZ
+CODE_SMELL
+˜squid:S1192"hDefine a constant instead of duplicating this literal "jdbc:mysql://localhost:3306/MusicPlayer" 3 times.(Èîñ£HŸ0RCRITICALZ
+CODE_SMELL
+d
+squid:S106)"9Replace this use of System.out or System.err by a logger.(¬ +H 0RMAJORZ
+CODE_SMELL
+Ysquid:S1148ä"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¡0RMINORZVULNERABILITY
+j
+squid:S106~"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH¢0RMAJORZ
+CODE_SMELL
+ksquid:S2583ü"DChange this condition so that it does not always evaluate to "false"(çëÙ–H£0RMAJORZBUG
+Ysquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¤0RMINORZVULNERABILITY
+Ysquid:S1148ù"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¥0RMINORZVULNERABILITY
+€squid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Þ“šÒH¦0RMINORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLineü"<This block of commented-out lines of code should be removed.(‚ÐÖƒH§0RMAJORZ
+CODE_SMELL
+Ysquid:S1148ò"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¨0RMINORZVULNERABILITY
+Ysquid:S1148–"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH©0RMINORZVULNERABILITY
+ysquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(‚ÐÖƒHª0RMAJORZ
+CODE_SMELL
+Rsquid:S2068k" Remove this hard-coded password.(Èîñ£H«0RBLOCKERZVULNERABILITY
+Ysquid:S1148ß"#Use a logger to log this exception.(¢ÑØùÿÿÿÿH¬0RMINORZVULNERABILITY
+Ysquid:S1148ë"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH­0RMINORZVULNERABILITY
+`squid:S4925³"-Remove this "Class.forName()", it is useless.(Ë˜®þÿÿÿÿH®0RMAJORZ
+CODE_SMELL
+e
+squid:S106t"9Replace this use of System.out or System.err by a logger.(¶å„„H¯0RMAJORZ
+CODE_SMELL
+_squid:S4925"-Remove this "Class.forName()", it is useless.(Ë˜®þÿÿÿÿH°0RMAJORZ
+CODE_SMELL
+j
+squid:S106{"9Replace this use of System.out or System.err by a logger.(›ÛÓûÿÿÿÿH±0RMAJORZ
+CODE_SMELL
+j
+squid:S106s"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH²0RMAJORZ
+CODE_SMELL
+csquid:S2209"5Change this instance-reference to a static reference.(ÉðžH³0RMAJORZ
+CODE_SMELL
+…squid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”®ÒøûÿÿÿÿH´0RMINORZ
+CODE_SMELL
+Ysquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHµ0RMINORZVULNERABILITY
+[squid:S1481ò"(Remove this unused "mib" local variable.(Ïûç»ýÿÿÿÿH¶0RMINORZ
+CODE_SMELL
+j
+squid:S106w"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿH·0RMAJORZ
+CODE_SMELL
+Ysquid:S1148‡"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¸0RMINORZVULNERABILITY
+Ysquid:S1148Ý"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¹0RMINORZVULNERABILITY
+e
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¤ù”ÙHº0RMAJORZ
+CODE_SMELL
+ƒsquid:S3776®"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‚Áò·H»0RCRITICALZ
+CODE_SMELL
+Xsquid:S1148;"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH¼0RMINORZVULNERABILITY
+ysquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(‚ÐÖƒH½0RMAJORZ
+CODE_SMELL
+Rsquid:S2068ƒ" Remove this hard-coded password.(÷ŽÖ=H¾0RBLOCKERZVULNERABILITY
+f
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(Þƒ…ÈH¿0RMAJORZ
+CODE_SMELL
+j
+squid:S106y"9Replace this use of System.out or System.err by a logger.(¬„Ï”úÿÿÿÿHÀ0RMAJORZ
+CODE_SMELL
+Rsquid:S2068" Remove this hard-coded password.(Èîñ£HÁ0RBLOCKERZVULNERABILITY
+e
+squid:S106}"9Replace this use of System.out or System.err by a logger.(„ç´øHÂ0RMAJORZ
+CODE_SMELL
+Xsquid:S2068Ç" Remove this hard-coded password.( ã¯šùÿÿÿÿHÃ0RBLOCKERZVULNERABILITY
+j
+squid:S106,"9Replace this use of System.out or System.err by a logger.(í°Í†ÿÿÿÿÿHÄ0RMAJORZ
+CODE_SMELL

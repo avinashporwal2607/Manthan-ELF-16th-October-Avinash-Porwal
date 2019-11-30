@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>log in</title>
+</head>
+<body>
+<fieldset>
+<legend>EMPLOYEE LOGIN</legend>
+<form method='POST' action='./login'>
+
+		<table border="2" align='center'>
+			<tr>
+				<td>User Name:</td>
+				<td><input type='number' name='User_Name' required></td>
+			</tr>
+			<tr>
+				<td> password:</td>
+				<td><input type='password' name='Password' required></td>
+			</tr>
+			<tr>
+				
+				<td colspan="3" align="center">
+				<input type=submit value='Login'></td>
+			</tr>
+		</table>
+</form>
+</fieldset>		
+</body>
+</html>

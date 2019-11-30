@@ -1,0 +1,105 @@
+package com.manthan.EmployeeManagement.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Logger;
+
+import com.mysql.jdbc.Driver;//for this import you have to add mysql connector file from your computer to package
+
+public class MyFirstjdbc {
+	public static void main(String[] args) {
+		
+		Connection con=null;//java.sql select only
+		Statement stmt=null;//its statement is interface
+		ResultSet rs=null;//
+		try {
+			//1. load the driver
+			//Driver driver =new Driver();
+			//DriverManager.registerDriver(driver);//driver manager who manage whole things for driver and register
+			
+		Class.forName("com.mysql.jdbc.Driver");//second way of load driver"
+			
+			
+			//2. get the connection via driver
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/elf_employee_db?user=root&password=root");//DB url
+			
+			//3. Issue the sql query
+			stmt= con.createStatement();
+			rs=stmt.executeQuery("select * from Employee");
+			
+			//4. process the result
+			while(rs.next())
+			{
+				int eid=rs.getInt(1);
+				String ename=rs.getString("emp_name");
+				int eage=rs.getInt("emp_age");
+				double salary =rs.getDouble("emp_salary");
+				String desgin=rs.getString("emp_designation");
+				long mobile=rs.getLong("emp_mobi");
+				Logger log=Logger.getLogger("mylogger");
+				
+				log.info("emp_id = "+eid);
+				System.out.println("emp_name = "+ename);
+				
+				System.out.println("emp_age = "+eage);
+				System.out.println("emp_salary = "+salary);
+				
+				System.out.println("emp_designation = " +desgin);
+				System.out.println("emp_mobile = "+mobile);
+				System.out.println("---------------------------------------------------------------------------");
+				
+			}
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		finally
+		{//5. close all JDBC objects
+			
+				if(rs!=null)
+				{
+					try {
+						rs.close();
+					} 
+					catch (SQLException e)
+					{
+						e.printStackTrace();
+					}
+					
+				}
+				if(stmt!=null)
+				{
+					try {
+						stmt.close();
+					} 
+					catch (SQLException e)
+					{
+						e.printStackTrace();
+					}
+					
+				}
+				if(con!=null)
+				{
+					try {
+						con.close();
+					} 
+					catch (SQLException e)
+					{
+						e.printStackTrace();
+					}
+					
+				}
+			
+		}
+	
+		
+		
+	}//end of main()
+
+}//end of class

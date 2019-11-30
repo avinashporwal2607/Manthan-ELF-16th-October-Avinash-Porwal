@@ -1,0 +1,10 @@
+
+Usquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿRMINORZVULNERABILITY
+…squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç˜»ÎRMINORZ
+CODE_SMELL
+Usquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿRMINORZVULNERABILITY
+Usquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿRMINORZVULNERABILITY
+\squid:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿRMAJORZ
+CODE_SMELL
+„squid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(æÄ»|RBLOCKERZVULNERABILITY
+Usquid:S1148-"#Use a logger to log this exception.(ğø¡üÿÿÿÿRMINORZVULNERABILITY

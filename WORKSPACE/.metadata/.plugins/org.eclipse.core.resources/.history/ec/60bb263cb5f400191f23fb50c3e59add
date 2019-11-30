@@ -1,0 +1,10 @@
+package com.testyantra.object.test;
+
+public class TestA {
+public static void main(String[] args) {
+	Student s=new Student();
+	String n=s.toString();
+	System.out.println(n);
+	System.out.println(s);
+}
+}

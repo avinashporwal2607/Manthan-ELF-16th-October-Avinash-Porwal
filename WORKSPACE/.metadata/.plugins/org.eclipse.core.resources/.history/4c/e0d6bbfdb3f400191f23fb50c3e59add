@@ -1,0 +1,9 @@
+package com.testyantra.object.test;
+
+public class Student {
+	int hashcode()
+	{
+		return 5;
+	}
+
+}

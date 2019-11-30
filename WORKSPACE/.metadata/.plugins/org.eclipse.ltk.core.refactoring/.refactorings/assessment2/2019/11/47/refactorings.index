@@ -1,0 +1,37 @@
+1574422067189	Move 'login.jsp' to 'WebContent'
+1574422122569	Copy file
+1574423493844	Copy file
+1574423872442	Delete element
+1574423917775	Move file
+1574424227912	Copy package
+1574424234756	Delete element
+1574426461160	Delete element
+1574427286649	Rename type 'DaoImplementsManager'
+1574427479633	Rename type 'Dao'
+1574427680983	Delete element
+1574429042810	Move 'javax.servlet-api-3.1.0.jar' to 'lib'
+1574429046982	Move 'mysql-connector-java-5.1.38.jar' to 'lib'
+1574429060281	Delete element
+1574429078436	Move 'web.xml' to 'lib'
+1574476607480	Rename type 'bean'
+1574476701937	Rename type 'StudentDao'
+1574476716371	Rename type 'daointerface'
+1574476775594	Rename type 'impl'
+1574477522843	Copy compilation unit
+1574477551606	Delete element
+1574477740778	Delete element
+1574477747622	Delete element
+1574477764521	Delete element
+1574477850050	Delete element
+1574477855622	Delete element
+1574477996248	Delete element
+1574478061886	Copy compilation unit
+1574478064902	Copy compilation unit
+1574478072845	Copy compilation unit
+1574478075708	Copy compilation unit
+1574478213640	Delete element
+1574478457513	Delete element
+1574479602980	Rename type 'add'
+1574480345514	Delete element
+1574490405689	Copy file
+1574490408894	Delete element

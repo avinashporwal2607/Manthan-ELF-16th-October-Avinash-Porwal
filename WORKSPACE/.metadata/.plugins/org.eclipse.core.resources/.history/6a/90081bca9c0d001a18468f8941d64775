@@ -1,0 +1,64 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+
+import com.manthan.student.bean.StudentInfoBean;
+
+public class DaoImplementsLogin implements StudentDao1{
+
+	@Override
+	public StudentInfoBean login(String User_Name, String password) {
+		Connection con=null;
+		PreparedStatement stmt=null;
+		ResultSet rs=null;
+		StudentInfoBean StudentInfoBean=null;
+		try {
+			//Driver driver=new Driver();
+			//DriverManager.registerDriver(driver);
+			Class.forName("com.mysql.jdbc.Driver");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/user?user=root&password=root");
+			String query="select * from user where User_Name= ? and Password=?";
+			stmt=con.prepareStatement(query);
+			stmt.setString(1,User_Name);
+			stmt.setString(2,password);
+			rs=stmt.executeQuery();
+			if(rs.next()) {
+				StudentInfoBean=new StudentInfoBean();
+
+				StudentInfoBean.setUser_Name(rs.getString("User_Name"));
+				StudentInfoBean.setPassword(rs.getString("Password"));
+				StudentInfoBean.setAge(rs.getInt("Age"));
+				StudentInfoBean.setGender(rs.getString("Gender"));
+
+
+			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(rs !=null) {
+					rs.close();
+				}
+				if(stmt !=null) {
+					stmt.close();
+				}
+				if(con !=null) {
+					con.close();
+				}
+
+			}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+
+		}
+		return StudentInfoBean;
+
+	}
+}
+
+
+
