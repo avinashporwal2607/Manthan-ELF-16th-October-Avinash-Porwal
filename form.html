@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/Bootstrap/form.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="color:black;background-color: grey;">
+        <form id="save-later-form">
+                <div>
+                        <label for=""> Name</label><br>
+                         <input type="text" name="name" id="" placeholder="Enter your Name" required><br><br>
+                     </div>
+                     
+                     <div>
+                         <label for=""> Email</label><br>
+                         <input id="emailAddress" type="email" size="64" maxLength="64" required
+          placeholder="username@gmail.com" pattern=".+[a-zA-Z0-9]@gmail.com"
+          title="Please provide only genuine e-mail address"><br><br>
+                     </div>
+                     <div>
+                            <label for=""> Password</label><br>
+                            <input id="Password" type="password" size="30" maxLength="64" required
+          placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+                    </div>
+                     <div>
+                     <label for=""> Phone no</label><br>
+                     <input id="phoneNumber" type="tel" name="tel" id="" placeholder="Enter your phone" pattern="[789][0-9]{9}"title="enter the valid phone number" maxlength="10" required ><br><br>
+                 </div>
+                 <div>
+    
+                        <div>
+                                <button type="submit" id="submit">SUBMIT</button>
+                                <button type="submit" id="save">SAVE</button>
+                    
+                            </div>
+
+    </form>
+</body>
+<script src="/Bootstrap/form.js"></script>
+</html>
+</html>
